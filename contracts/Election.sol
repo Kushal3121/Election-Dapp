@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.8.0;
 
 contract Election {
@@ -15,12 +15,13 @@ contract Election {
     uint256 public candidatesCount;
 
     // voted event
-    //event votedEvent(uint256 indexed _candidateId);
+    event votedEvent(uint256 indexed _candidateId);
 
     constructor() public {
-        addCandidate("John Wick");
-        addCandidate("Browney Jr");
-        addCandidate("Helena Williams");
+        addCandidate("Kushal Choudhary");
+        addCandidate("Saurabh Agrawal");
+        addCandidate("Mihir Gadhe");
+        
     }
 
     function addCandidate(string memory _name) private {
@@ -42,6 +43,6 @@ contract Election {
         candidates[_candidateId].voteCount++;
 
         // trigger voted event
-        //emit votedEvent(_candidateId);
+        emit votedEvent(_candidateId);
     }
 }

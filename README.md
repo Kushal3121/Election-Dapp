@@ -71,7 +71,7 @@ Building a secure electronic voting system that offers the fairness and privacy 
 Follow the steps below to download, install, and run this project.
 
 ### Step 1. Clone the project
-`git clone https://github.com/rj-since-2000/DSCWOW-DVN`
+`git clone https://github.com/Kushal3121/Election-Dapp.git`
 
 ### Step 2. Install dependencies
 ```

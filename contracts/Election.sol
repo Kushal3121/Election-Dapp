@@ -18,9 +18,11 @@ contract Election {
     event votedEvent(uint256 indexed _candidateId);
 
     constructor() public {
-        addCandidate("Kushal Choudhary");
-        addCandidate("Saurabh Agrawal");
-        addCandidate("Mihir Gadhe");
+        addCandidate("Declan Smith");
+        addCandidate("John Doe");
+        addCandidate("Bryanty Sermin");
+        addCandidate("Laurie Scutt");
+        addCandidate("Gillie Jakeway");
         
     }
 

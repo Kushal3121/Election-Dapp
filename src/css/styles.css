@@ -46,7 +46,7 @@ html {
 }
 
 body {
-    background-color:cyan;
+    background-color: #bebebe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,15 +55,18 @@ body {
 
 .container {
     background-color: white;
-    /* border-radius: 10px; */
-    padding: 15px 25px;
-    width: 100%;
-    max-width: 960px;
+    padding: 30px;
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    height: 650px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    justify-content: center;
     text-align: center;
     text-transform: uppercase;
     z-index: 10;
+    border-radius: 20px;
 }
 
 #content {
@@ -72,7 +75,8 @@ body {
 
 th {
     font-weight: bold;
-    color: #60a9ff;
+    font-size: medium;
+    color: black
 }
 
 tr {
@@ -122,13 +126,15 @@ label {
 }
 
 #myAccount {
-    padding-top: 1rem;
+    padding: 10px;
     color: dimgray;
+    font-size: small;
 }
 
 #accountTag {
+
     font-weight: bold;
-    font-size: medium;
+    font-size: small;
 }
 
 #note {
